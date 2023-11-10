@@ -7,6 +7,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./style.css">
     <title>Document</title>
 </head>
 
@@ -14,7 +15,7 @@
     <header class="bg-dark">
         <nav class="navbar" data-bs-theme="dark">
             <div class="container navbar-expand">
-                <a class="navbar-brand" href="#">Start Bootstrap</a>
+                <a class="navbar-brand" href="#">Start a Business</a>
                 <ul class="navbar-nav ">
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="#">Home</a>
@@ -31,18 +32,63 @@
                 </ul>
             </div>
         </nav>
+        <section id="carouselExample" class="carousel slide">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="banner bg-dark py-5 d-flex flex-column align-items-center">
+                        <div class="text-white text-center w-50 mb-2">
+                            <h1>Present your business in a whole new way</h1>
+                            <p class="text-white-50">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum adipisci natus
+                                eum veniam rem dolorem soluta delectus est officiis.
+                            </p>
+                        </div>
+                        <div>
+                            <button class="btn btn-secondary">Get Started</button>
+                            <button class="btn btn-outline-info">More information</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="banner bg-dark py-5 d-flex flex-column align-items-center">
+                        <div class="text-white text-center w-50 mb-2">
+                            <h1>Present your business in a whole new way</h1>
+                            <p class="text-white-50">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore explicabo quo, dolorum, fugiat nam reprehenderit a facere nemo iste necessitatibus hic fuga! Magnam at, facilis in sapiente autem voluptas! Cumque.
+                            </p>
+                        </div>
+                        <div>
+                            <button class="btn btn-secondary">Get Started</button>
+                            <button class="btn btn-outline-info">More information</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="banner bg-dark py-5 d-flex flex-column align-items-center">
+                        <div class="text-white text-center w-50 mb-2">
+                            <h1>Present your business in a whole new way</h1>
+                            <p class="text-white-50">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum adipisci natus
+                                eum veniam rem dolorem soluta delectus est officiis.
+                            </p>
+                        </div>
+                        <div>
+                            <button class="btn btn-secondary">Get Started</button>
+                            <button class="btn btn-outline-info">More information</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </section>
     </header>
-    <section id="welcome" class="bg-dark py-5 d-flex flex-column align-items-center text-white">
-        <div class="w-50 text-center">
-            <h1>Welcome to the Bootstrap</h1>
-            <p class="text-white-50">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum adipisci natus
-                eum veniam rem dolorem soluta delectus est officiis.</p>
-        </div>
-        <div>
-            <button class="btn btn-secondary">Get Started</button>
-            <button class="btn btn-outline-info">More information</button>
-        </div>
-    </section>
     <main class="p-5 container">
         <section id="subscription" class="d-flex flex-column justify-content-center">
             <div class="py-5 text-center">
@@ -92,15 +138,18 @@
                                     Monthly status reports
                                 </li>
                             </ul>
-                            <a href="#" class="btn btn-outline-primary w-100" data-bs-toggle="modal" data-bs-target="#exampleModal">Choose plan</a>
+                            <a href="#" class="btn btn-outline-primary w-100" data-bs-toggle="modal"
+                                data-bs-target="#exampleModal">Choose plan</a>
 
                             <!-- Modal -->
-                            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                                aria-hidden="true">
                                 <div class="modal-dialog modal-dialog-centered">
                                     <div class="modal-content">
                                         <div class="modal-header">
                                             <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
-                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
                                         </div>
                                         <div class="modal-body">
                                             ...
